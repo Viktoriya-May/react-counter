@@ -17,7 +17,6 @@ handleIncrement = ()=>
         value:prevState.value + 1,
    }));
 
-
 handleDecrement = () =>
 		this.setState((prevState) => {
 			if (prevState.value === 0) return { value: 0 }
